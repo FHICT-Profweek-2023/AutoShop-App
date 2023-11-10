@@ -1,0 +1,234 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "1S0-4U-rVP.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"*Product*\"; ObjectID = \"1S0-4U-rVP\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "*Product*"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "*Product*"
+          }
+        }
+      }
+    },
+    "7SH-9S-UX0.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \" Add Products\"; ObjectID = \"7SH-9S-UX0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : " Add Products"
+          }
+        }
+      }
+    },
+    "7SH-9S-UX0.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"7SH-9S-UX0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "BYZ-38-t0r.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"MainView\"; ObjectID = \"BYZ-38-t0r\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "MainView"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hoofdmenu"
+          }
+        }
+      }
+    },
+    "CSn-Og-w7h.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Close\"; ObjectID = \"CSn-Og-w7h\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Close"
+          }
+        }
+      }
+    },
+    "dUj-ge-GWC.title" : {
+      "comment" : "Class = \"UITableViewController\"; title = \"AddProductView\"; ObjectID = \"dUj-ge-GWC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "AddProductView"
+          }
+        }
+      }
+    },
+    "FSY-28-oDh.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"FSY-28-oDh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "klE-qK-Rk9.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"klE-qK-Rk9\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "MEa-pS-ujI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Going To:\"; ObjectID = \"MEa-pS-ujI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Going To:"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onderweg Naar:"
+          }
+        }
+      }
+    },
+    "mV8-aC-7Hs.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Start\"; ObjectID = \"mV8-aC-7Hs\"; Note = \"Start Button\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Start"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
+        }
+      }
+    },
+    "mV8-aC-7Hs.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"mV8-aC-7Hs\"; Note = \"Start Button\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "qwX-3t-egJ.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Add Product\"; ObjectID = \"qwX-3t-egJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add Product"
+          }
+        }
+      }
+    },
+    "ut5-Fg-8we.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"ut5-Fg-8we\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "v2T-0z-BtL.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"LoginPageView\"; ObjectID = \"v2T-0z-BtL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "LoginPageView"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Login Pagina"
+          }
+        }
+      }
+    },
+    "zZk-ub-Ogi.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Login\"; ObjectID = \"zZk-ub-Ogi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Login"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inloggen"
+          }
+        }
+      }
+    },
+    "zZk-ub-Ogi.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"zZk-ub-Ogi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

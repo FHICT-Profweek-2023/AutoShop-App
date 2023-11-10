@@ -3,27 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3C66D0FB2AF8F4A60030168A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66D0FA2AF8F4A60030168A /* AppDelegate.swift */; };
 		3C66D0FD2AF8F4A60030168A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66D0FC2AF8F4A60030168A /* SceneDelegate.swift */; };
-		3C66D0FF2AF8F4A60030168A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66D0FE2AF8F4A60030168A /* ViewController.swift */; };
+		3C66D0FF2AF8F4A60030168A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66D0FE2AF8F4A60030168A /* MainView.swift */; };
 		3C66D1022AF8F4A60030168A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C66D1002AF8F4A60030168A /* Main.storyboard */; };
 		3C66D1042AF8F4A80030168A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C66D1032AF8F4A80030168A /* Assets.xcassets */; };
 		3C66D1072AF8F4A80030168A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C66D1052AF8F4A80030168A /* LaunchScreen.storyboard */; };
+		3C73E91E2AFBADAE00021E24 /* MainViewTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E91D2AFBADAE00021E24 /* MainViewTable.swift */; };
+		3C73E9202AFBB10F00021E24 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E91F2AFBB10F00021E24 /* AddProductView.swift */; };
+		3C73E9222AFBC38F00021E24 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E9212AFBC38F00021E24 /* Products.swift */; };
+		3C8C1E552AF909B1000D1EB5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C1E542AF909B1000D1EB5 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C66D0F72AF8F4A60030168A /* AutomatedShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomatedShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C66D0FA2AF8F4A60030168A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C66D0FC2AF8F4A60030168A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C66D0FE2AF8F4A60030168A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C66D0FE2AF8F4A60030168A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3C66D1012AF8F4A60030168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C66D1032AF8F4A80030168A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C66D1062AF8F4A80030168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C66D1082AF8F4A80030168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C66D1102AF8FC070030168A /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Main.xcstrings; sourceTree = "<group>"; };
+		3C73E91D2AFBADAE00021E24 /* MainViewTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTable.swift; sourceTree = "<group>"; };
+		3C73E91F2AFBB10F00021E24 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		3C73E9212AFBC38F00021E24 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		3C8C1E542AF909B1000D1EB5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +49,7 @@
 		3C66D0EE2AF8F4A60030168A = {
 			isa = PBXGroup;
 			children = (
-				3C66D0F92AF8F4A60030168A /* AutomatedShoppingCart */,
+				3C66D0F92AF8F4A60030168A /* AutoShop */,
 				3C66D0F82AF8F4A60030168A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +62,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C66D0F92AF8F4A60030168A /* AutomatedShoppingCart */ = {
+		3C66D0F92AF8F4A60030168A /* AutoShop */ = {
 			isa = PBXGroup;
 			children = (
+				3CB271D72AFCFC92007DC1A6 /* API */,
 				3C66D0FA2AF8F4A60030168A /* AppDelegate.swift */,
 				3C66D0FC2AF8F4A60030168A /* SceneDelegate.swift */,
-				3C66D0FE2AF8F4A60030168A /* ViewController.swift */,
+				3C73E91F2AFBB10F00021E24 /* AddProductView.swift */,
+				3C8C1E542AF909B1000D1EB5 /* LoginView.swift */,
+				3C66D0FE2AF8F4A60030168A /* MainView.swift */,
+				3C73E91D2AFBADAE00021E24 /* MainViewTable.swift */,
 				3C66D1002AF8F4A60030168A /* Main.storyboard */,
 				3C66D1032AF8F4A80030168A /* Assets.xcassets */,
 				3C66D1052AF8F4A80030168A /* LaunchScreen.storyboard */,
 				3C66D1082AF8F4A80030168A /* Info.plist */,
 			);
-			path = AutomatedShoppingCart;
+			path = AutoShop;
+			sourceTree = "<group>";
+		};
+		3CB271D72AFCFC92007DC1A6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3C73E9212AFBC38F00021E24 /* Products.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +130,7 @@
 			knownRegions = (
 				en,
 				Base,
+				nl,
 			);
 			mainGroup = 3C66D0EE2AF8F4A60030168A;
 			productRefGroup = 3C66D0F82AF8F4A60030168A /* Products */;
@@ -138,7 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C66D0FF2AF8F4A60030168A /* ViewController.swift in Sources */,
+				3C73E9202AFBB10F00021E24 /* AddProductView.swift in Sources */,
+				3C8C1E552AF909B1000D1EB5 /* LoginView.swift in Sources */,
+				3C73E91E2AFBADAE00021E24 /* MainViewTable.swift in Sources */,
+				3C73E9222AFBC38F00021E24 /* Products.swift in Sources */,
+				3C66D0FF2AF8F4A60030168A /* MainView.swift in Sources */,
 				3C66D0FB2AF8F4A60030168A /* AppDelegate.swift in Sources */,
 				3C66D0FD2AF8F4A60030168A /* SceneDelegate.swift in Sources */,
 			);
@@ -151,6 +177,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3C66D1012AF8F4A60030168A /* Base */,
+				3C66D1102AF8FC070030168A /* mul */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -171,6 +198,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -234,6 +262,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -307,6 +336,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.v-com.AutomatedShoppingCart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,6 +367,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.v-com.AutomatedShoppingCart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
