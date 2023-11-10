@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C66D0F72AF8F4A60030168A /* AutomatedShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomatedShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C66D0F72AF8F4A60030168A /* AutoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C66D0FA2AF8F4A60030168A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C66D0FC2AF8F4A60030168A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3C66D0FE2AF8F4A60030168A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		3C66D0F82AF8F4A60030168A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C66D0F72AF8F4A60030168A /* AutomatedShoppingCart.app */,
+				3C66D0F72AF8F4A60030168A /* AutoShop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C66D0F62AF8F4A60030168A /* AutomatedShoppingCart */ = {
+		3C66D0F62AF8F4A60030168A /* AutoShop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C66D10B2AF8F4A80030168A /* Build configuration list for PBXNativeTarget "AutomatedShoppingCart" */;
+			buildConfigurationList = 3C66D10B2AF8F4A80030168A /* Build configuration list for PBXNativeTarget "AutoShop" */;
 			buildPhases = (
 				3C66D0F32AF8F4A60030168A /* Sources */,
 				3C66D0F42AF8F4A60030168A /* Frameworks */,
@@ -103,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = AutomatedShoppingCart;
+			name = AutoShop;
 			productName = AutomatedShoppingCart;
-			productReference = 3C66D0F72AF8F4A60030168A /* AutomatedShoppingCart.app */;
+			productReference = 3C66D0F72AF8F4A60030168A /* AutoShop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3C66D0F22AF8F4A60030168A /* Build configuration list for PBXProject "AutomatedShoppingCart" */;
+			buildConfigurationList = 3C66D0F22AF8F4A60030168A /* Build configuration list for PBXProject "AutoShop" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C66D0F62AF8F4A60030168A /* AutomatedShoppingCart */,
+				3C66D0F62AF8F4A60030168A /* AutoShop */,
 			);
 		};
 /* End PBXProject section */
@@ -379,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C66D0F22AF8F4A60030168A /* Build configuration list for PBXProject "AutomatedShoppingCart" */ = {
+		3C66D0F22AF8F4A60030168A /* Build configuration list for PBXProject "AutoShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C66D1092AF8F4A80030168A /* Debug */,
@@ -388,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C66D10B2AF8F4A80030168A /* Build configuration list for PBXNativeTarget "AutomatedShoppingCart" */ = {
+		3C66D10B2AF8F4A80030168A /* Build configuration list for PBXNativeTarget "AutoShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C66D10C2AF8F4A80030168A /* Debug */,
