@@ -43,6 +43,18 @@
         }
       }
     },
+    "a73-6w-MUh.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"a73-6w-MUh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
     "BYZ-38-t0r.title" : {
       "comment" : "Class = \"UIViewController\"; title = \"MainView\"; ObjectID = \"BYZ-38-t0r\";",
       "extractionState" : "extracted_with_value",
@@ -57,18 +69,6 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Hoofdmenu"
-          }
-        }
-      }
-    },
-    "CSn-Og-w7h.title" : {
-      "comment" : "Class = \"UIBarButtonItem\"; title = \"Close\"; ObjectID = \"CSn-Og-w7h\";",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Close"
           }
         }
       }
@@ -93,6 +93,18 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        }
+      }
+    },
+    "i9Q-Et-CyH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"i9Q-Et-CyH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
           }
         }
       }
@@ -158,13 +170,13 @@
       }
     },
     "qwX-3t-egJ.title" : {
-      "comment" : "Class = \"UINavigationItem\"; title = \"Add Product\"; ObjectID = \"qwX-3t-egJ\";",
+      "comment" : "Class = \"UINavigationItem\"; title = \"Add Products\"; ObjectID = \"qwX-3t-egJ\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Add Product"
+            "value" : "Add Products"
           }
         }
       }
@@ -177,6 +189,18 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        }
+      }
+    },
+    "uTP-gu-YTN.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"uTP-gu-YTN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
           }
         }
       }
@@ -195,6 +219,18 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Login Pagina"
+          }
+        }
+      }
+    },
+    "Wuy-Cd-nCJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"0x - €0\"; ObjectID = \"Wuy-Cd-nCJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "0x - €0"
           }
         }
       }
