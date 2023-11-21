@@ -2,19 +2,19 @@
   "sourceLanguage" : "en",
   "strings" : {
     "1S0-4U-rVP.text" : {
-      "comment" : "Class = \"UILabel\"; text = \"*Product*\"; ObjectID = \"1S0-4U-rVP\";",
-      "extractionState" : "stale",
+      "comment" : "Class = \"UILabel\"; text = \"No Products Added\"; ObjectID = \"1S0-4U-rVP\";",
+      "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "*Product*"
+            "value" : "No Products Added"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "*Product*"
+            "value" : "Geen producten toegevoegd"
           }
         }
       }
@@ -28,6 +28,12 @@
             "state" : "new",
             "value" : " Add Products"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Producten Toevoegen"
+          }
         }
       }
     },
@@ -40,6 +46,12 @@
             "state" : "new",
             "value" : "Button"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
+          }
         }
       }
     },
@@ -51,6 +63,30 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Label"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "bMU-n6-sg6.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Add Products\"; ObjectID = \"bMU-n6-sg6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add Products"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Producten Toevoegen"
           }
         }
       }
@@ -67,8 +103,26 @@
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Hoofdmenu"
+            "state" : "translated",
+            "value" : "HoofdPagina"
+          }
+        }
+      }
+    },
+    "CSn-Og-w7h.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Close\"; ObjectID = \"CSn-Og-w7h\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Close"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluiten"
           }
         }
       }
@@ -82,6 +136,12 @@
             "state" : "new",
             "value" : "AddProductView"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ProductToevoegenPagina"
+          }
         }
       }
     },
@@ -93,6 +153,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
           }
         }
       }
@@ -106,6 +172,12 @@
             "state" : "new",
             "value" : "Title"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
+          }
         }
       }
     },
@@ -117,6 +189,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
           }
         }
       }
@@ -166,6 +244,12 @@
             "state" : "new",
             "value" : "Button"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
+          }
         }
       }
     },
@@ -177,6 +261,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Add Products"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Producten Toevoegen"
           }
         }
       }
@@ -190,6 +280,12 @@
             "state" : "new",
             "value" : "Button"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
+          }
         }
       }
     },
@@ -201,6 +297,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Detail"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
           }
         }
       }
@@ -217,8 +319,8 @@
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Login Pagina"
+            "state" : "translated",
+            "value" : "LoginPagina"
           }
         }
       }
@@ -230,6 +332,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
+            "value" : "0x - €0"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
             "value" : "0x - €0"
           }
         }
@@ -261,6 +369,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
           }
         }
       }

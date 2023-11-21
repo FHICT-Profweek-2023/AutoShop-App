@@ -14,9 +14,73 @@
             filePath = "AutoShop/ViewControllers/MainViewTable.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78D9B463-75F4-4C66-B7BA-4468213F6DE4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutoShop/ViewControllers/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78D9B463-75F4-4C66-B7BA-4468213F6DE4 - fa264ef467cb1ba9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AutoShop.Control) -&gt; () in closure #1 @Sendable (__C.NSTimer) -&gt; () in AutoShop.MainView.viewDidLoad() -&gt; ()"
+                  moduleName = "AutoShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomasvalkenburg/Desktop/AutoShop/AutoShop/ViewControllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "78D9B463-75F4-4C66-B7BA-4468213F6DE4 - fa264ef467cb1ba9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AutoShop.Control) -&gt; () in closure #1 @Sendable (__C.NSTimer) -&gt; () in AutoShop.MainView.viewDidLoad() -&gt; ()"
+                  moduleName = "AutoShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomasvalkenburg/Desktop/AutoShop/AutoShop/ViewControllers/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DB2BC90-181B-44CD-B571-201090EEE542"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutoShop/ViewControllers/MainViewTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

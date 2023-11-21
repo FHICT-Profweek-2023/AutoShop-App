@@ -10,7 +10,7 @@ import Foundation
 struct Control: Codable {
     let id: Int
     var halt: Bool
-    var next_product: Int
+    var next_product: Int?
     let current_position: Int
 }
 
@@ -18,7 +18,9 @@ class Controls {
     
     static func GetControl(finished: @escaping (_ control: Control) -> Void) {
         
-        guard let url = URL(string: "http://192.168.160.53/api/Controls/0") else { return }
+        let id = 0
+        
+        guard let url = URL(string: "http://192.168.160.53/api/Controls/\(id)") else { return }
         
         URLSession.shared.dataTask(with: url) { data, res, error in
             if let data = data {

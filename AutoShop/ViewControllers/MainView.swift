@@ -16,15 +16,26 @@ class MainView: UIViewController {
         cartTableView.delegate = self
         cartTableView.dataSource = self
         
-        let timer = Timer.scheduledTimer(withTimeInterval: 3, repeats: true) {_ in
+        let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) {_ in
             Controls.GetControl(finished: { control in
                 self._controls = control
                 
-                let progress = (Float(control.current_position - self.startPosition) / Float(control.next_product - self.startPosition))
+                guard let nextProduct = control.next_product else {
+                    self.productLabel.text = "Geen producten geselecteerd"
+                    self.progressView.setProgress(0.0, animated: true)
+                    return
+                }
+                
+                let progress = (Float(control.current_position - self.startPosition) / Float(nextProduct - self.startPosition))
                 self.progressView.setProgress(progress, animated: true)
                 
                 if (control.current_position == control.next_product && control.halt == false) {
                     self.startPosition = control.current_position
+                    self.cartTableView.reloadData()
+                }
+                
+                Products.GetProduct(id: nextProduct) { product in
+                    self.productLabel.text = product.name
                 }
             })
         }
@@ -46,8 +57,10 @@ class MainView: UIViewController {
     var controls: Control? { get {
         return _controls
     } set {
+        guard let newValue else { return }
+        
         _controls = newValue
-        Controls.PutControl(control: newValue!)
+        Controls.PutControl(control: newValue)
     }}
     
     var CartList: [Cart]?

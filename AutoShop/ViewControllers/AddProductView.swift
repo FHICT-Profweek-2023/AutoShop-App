@@ -22,7 +22,7 @@ class AddProductView: UIViewController {
         Products.GetProductList { products in
             self.products = products
             self.filteredProducts = self.products?.sorted(by: { Product1, Product2 in
-                Product1.name ?? "" < Product2.name ?? ""
+                Product1.name < Product2.name 
             })
             
             self.productTableView.reloadSections([0], with: .automatic)
@@ -72,13 +72,13 @@ extension AddProductView: UISearchBarDelegate {
         filteredProducts = []
         if (searchText == "") {
             filteredProducts = products?.sorted(by: { Product1, Product2 in
-                Product1.name ?? "" < Product2.name ?? ""
+                Product1.name < Product2.name
             })
         }
         
         if let products {
             for product in products {
-                if (product.name != nil && (product.name!.lowercased().contains(searchText.lowercased()) || product.description!.lowercased().contains(searchText.lowercased()))) {
+                if (product.name.lowercased().contains(searchText.lowercased()) || product.description.lowercased().contains(searchText.lowercased())) {
                     filteredProducts?.append(product)
                 }
             }

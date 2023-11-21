@@ -49,6 +49,12 @@ extension MainView: UITableViewDataSource {
             groupedCartList = Dictionary(grouping: CartList!, by: \.product.id)
         }
         
+        controls?.next_product = groupedCartList?.values.sorted(by: { cart1, cart2 in
+            cart1.first?.product.id ?? 0 < cart2.first?.product.id ?? 0
+        }).first(where: { Cart in
+            Cart.first!.product.id >= controls!.current_position
+        })?.first?.product.id ?? nil
+        
         return groupedCartList?.count ?? 0
     }
     
@@ -61,7 +67,7 @@ extension MainView: UITableViewDataSource {
         let product: Product = arr[indexPath.row].first!.product
         
         // Set text for cell
-        cell.TitleLabel.text = "€\(product.price) - \(product.name ?? "")"
+        cell.TitleLabel.text = "€\(product.price) - \(product.name)"
         cell.AmountLabel.text = "\(arr[indexPath.row].count)x - €\(arr[indexPath.row].count * product.price)"
         
         // Add product id to button tag
