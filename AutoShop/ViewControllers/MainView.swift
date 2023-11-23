@@ -18,7 +18,15 @@ class MainView: UIViewController {
         
         let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) {_ in
             Controls.GetControl(finished: { control in
-                self._controls = control
+                
+                if (self._controls == nil) {
+                    self._controls = control
+                    self._controls?.halt = true
+                    self.cartTableView.reloadData()
+                } else {
+                    self._controls = control
+                    self.cartTableView.reloadData()
+                }
                 
                 guard let nextProduct = control.next_product else {
                     self.productLabel.text = "Geen producten geselecteerd"
@@ -37,6 +45,8 @@ class MainView: UIViewController {
                 Products.GetProduct(id: nextProduct) { product in
                     self.productLabel.text = product.name
                 }
+                
+                self.cartTableView.reloadData()
             })
         }
         timer.fire()

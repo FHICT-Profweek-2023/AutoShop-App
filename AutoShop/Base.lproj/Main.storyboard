@@ -112,22 +112,22 @@
                                         <rect key="frame" x="0.0" y="0.0" width="587" height="834"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="M5r-bw-Bhi">
-                                                <rect key="frame" x="20" y="20" width="400" height="100"/>
+                                                <rect key="frame" x="20" y="20" width="300" height="100"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="a98-xE-4kg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="400" height="80"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="80"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="r6b-js-Tgu">
-                                                                <rect key="frame" x="0.0" y="0.0" width="400" height="51.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="300" height="51.5"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="Going To:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="MEa-pS-ujI">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="216" height="51.5"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="Going To:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="MEa-pS-ujI">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="86.5" height="51.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="No Products Added" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="1S0-4U-rVP">
-                                                                        <rect key="frame" x="221" y="0.0" width="179" height="51.5"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="No Products Added" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="1S0-4U-rVP">
+                                                                        <rect key="frame" x="91.5" y="0.0" width="208.5" height="51.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -135,7 +135,7 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <progressView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="750" id="tql-ci-jzR">
-                                                                <rect key="frame" x="0.0" y="61.5" width="400" height="18.5"/>
+                                                                <rect key="frame" x="0.0" y="61.5" width="300" height="18.5"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                                             </progressView>
@@ -143,6 +143,7 @@
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="0ei-cz-Vh2"/>
                                                     <constraint firstAttribute="trailing" secondItem="a98-xE-4kg" secondAttribute="trailing" id="1sz-1Q-3kA"/>
                                                     <constraint firstAttribute="bottom" secondItem="a98-xE-4kg" secondAttribute="bottom" id="237-uC-y3E"/>
                                                     <constraint firstAttribute="height" constant="100" id="6yw-ke-AfL"/>
@@ -239,7 +240,7 @@
                                                                                 <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klE-qK-Rk9" userLabel="Minus">
                                                                                     <rect key="frame" x="382" y="1.5" width="40" height="47.5"/>
                                                                                     <constraints>
-                                                                                        <constraint firstAttribute="width" constant="40" id="OLe-IC-u60"/>
+                                                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="40" id="OLe-IC-u60"/>
                                                                                     </constraints>
                                                                                     <state key="normal" title="Button"/>
                                                                                     <buttonConfiguration key="configuration" style="plain" image="minus.circle" catalog="system">
@@ -250,7 +251,7 @@
                                                                                 <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ut5-Fg-8we" userLabel="Plus">
                                                                                     <rect key="frame" x="427" y="1.5" width="40" height="47.5"/>
                                                                                     <constraints>
-                                                                                        <constraint firstAttribute="width" constant="40" id="sea-zR-ULa"/>
+                                                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="40" id="sea-zR-ULa"/>
                                                                                     </constraints>
                                                                                     <state key="normal" title="Button"/>
                                                                                     <buttonConfiguration key="configuration" style="plain">
@@ -361,7 +362,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" showsCancelButton="YES" id="Mdt-6h-dWe">
-                            <rect key="frame" x="0.0" y="0.0" width="704" height="44"/>
+                            <rect key="frame" x="0.0" y="0.0" width="214" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
@@ -431,16 +432,16 @@
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

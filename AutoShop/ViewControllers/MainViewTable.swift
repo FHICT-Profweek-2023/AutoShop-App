@@ -69,7 +69,7 @@ extension MainView: UITableViewDataSource {
         })
         
         // Return total price
-        return "Totaal: €\(totalPrice)"
+        return "Totale Prijs: €\(totalPrice)"
     }
     
     /// <summary>
@@ -83,7 +83,7 @@ extension MainView: UITableViewDataSource {
         controls?.next_product = groupedCartList?.values.sorted(by: { cart1, cart2 in
             cart1.first?.product.id ?? 0 < cart2.first?.product.id ?? 0
         }).first(where: { Cart in
-            Cart.first!.product.id >= controls!.current_position
+            Cart.first!.product.id > controls!.current_position
         })?.first?.product.id ?? nil
         
         // Return groupedCartList.count if is bigger than 0, else return 1 (Always return 1 or higher)
