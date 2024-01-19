@@ -16,9 +16,9 @@ class Cart{
 }
 
 /// <summary>
-///     Add protocal function
+///     Add protocol function
 /// </summary>
-extension MainView: AddProductToCart{
+extension MainView: AddProductToCart {
     func addProduct(product : Cart) {
         if (CartList == nil) {
             CartList = [product]
@@ -28,6 +28,15 @@ extension MainView: AddProductToCart{
         }
         
         cartTableView.reloadSections([0], with: .automatic)
+    }
+}
+    
+/// <summary>
+///     Add protocol function
+/// </summary>
+extension MainView: SetCustomer {
+    func SetCustomer(customer: Customer) {
+        self.customer = customer
     }
 }
 
@@ -45,6 +54,11 @@ extension MainView: UITableViewDelegate {
         
         if let destVC = segue.destination.children.first as? AddProductView {
             destVC.delegate = self
+        }
+        
+        if let destVC = segue.destination.children.first as? ProfileViewController {
+            destVC.delegate = self
+            destVC.customer = self.customer
         }
     }
 }
@@ -80,10 +94,10 @@ extension MainView: UITableViewDataSource {
             groupedCartList = Dictionary(grouping: CartList!, by: \.product.id)
         }
         
-        controls?.next_product = groupedCartList?.values.sorted(by: { cart1, cart2 in
+        controls?.next_Product = groupedCartList?.values.sorted(by: { cart1, cart2 in
             cart1.first?.product.id ?? 0 < cart2.first?.product.id ?? 0
         }).first(where: { Cart in
-            Cart.first!.product.id > controls!.current_position
+            Cart.first!.product.id > controls!.current_Position
         })?.first?.product.id ?? nil
         
         // Return groupedCartList.count if is bigger than 0, else return 1 (Always return 1 or higher)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0EB9E12B4BE775002BACDA /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0EB9E02B4BE775002BACDA /* Credentials.swift */; };
 		3C66D0FB2AF8F4A60030168A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66D0FA2AF8F4A60030168A /* AppDelegate.swift */; };
 		3C66D0FD2AF8F4A60030168A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66D0FC2AF8F4A60030168A /* SceneDelegate.swift */; };
 		3C66D0FF2AF8F4A60030168A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66D0FE2AF8F4A60030168A /* MainView.swift */; };
@@ -16,11 +17,14 @@
 		3C73E91E2AFBADAE00021E24 /* MainViewTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E91D2AFBADAE00021E24 /* MainViewTable.swift */; };
 		3C73E9202AFBB10F00021E24 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E91F2AFBB10F00021E24 /* AddProductView.swift */; };
 		3C73E9222AFBC38F00021E24 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E9212AFBC38F00021E24 /* Products.swift */; };
+		3CC42E872B21DF8300351041 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC42E862B21DF8300351041 /* ProfileViewController.swift */; };
+		3CD10DD02B552C85009BCAC2 /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD10DCF2B552C85009BCAC2 /* Customers.swift */; };
 		3CD8EF2A2B04DC1400C023B1 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8EF292B04DC1400C023B1 /* Controls.swift */; };
 		3CD8EF312B050D4800C023B1 /* CartTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8EF302B050D4800C023B1 /* CartTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C0EB9E02B4BE775002BACDA /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		3C66D0F72AF8F4A60030168A /* AutoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C66D0FA2AF8F4A60030168A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C66D0FC2AF8F4A60030168A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,10 +33,12 @@
 		3C66D1032AF8F4A80030168A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C66D1062AF8F4A80030168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C66D1082AF8F4A80030168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C66D1102AF8FC070030168A /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Main.xcstrings; sourceTree = "<group>"; };
 		3C73E91D2AFBADAE00021E24 /* MainViewTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTable.swift; sourceTree = "<group>"; };
 		3C73E91F2AFBB10F00021E24 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
 		3C73E9212AFBC38F00021E24 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		3CC42E852B21DCA400351041 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Main.xcstrings; sourceTree = "<group>"; };
+		3CC42E862B21DF8300351041 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3CD10DCF2B552C85009BCAC2 /* Customers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
 		3CD8EF292B04DC1400C023B1 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
 		3CD8EF302B050D4800C023B1 /* CartTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +90,8 @@
 			children = (
 				3C73E9212AFBC38F00021E24 /* Products.swift */,
 				3CD8EF292B04DC1400C023B1 /* Controls.swift */,
+				3C0EB9E02B4BE775002BACDA /* Credentials.swift */,
+				3CD10DCF2B552C85009BCAC2 /* Customers.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -94,6 +102,7 @@
 				3C73E91F2AFBB10F00021E24 /* AddProductView.swift */,
 				3C66D0FE2AF8F4A60030168A /* MainView.swift */,
 				3C73E91D2AFBADAE00021E24 /* MainViewTable.swift */,
+				3CC42E862B21DF8300351041 /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -189,10 +198,13 @@
 			files = (
 				3C73E9202AFBB10F00021E24 /* AddProductView.swift in Sources */,
 				3CD8EF312B050D4800C023B1 /* CartTableCell.swift in Sources */,
+				3C0EB9E12B4BE775002BACDA /* Credentials.swift in Sources */,
 				3C73E91E2AFBADAE00021E24 /* MainViewTable.swift in Sources */,
 				3C73E9222AFBC38F00021E24 /* Products.swift in Sources */,
 				3C66D0FF2AF8F4A60030168A /* MainView.swift in Sources */,
 				3CD8EF2A2B04DC1400C023B1 /* Controls.swift in Sources */,
+				3CD10DD02B552C85009BCAC2 /* Customers.swift in Sources */,
+				3CC42E872B21DF8300351041 /* ProfileViewController.swift in Sources */,
 				3C66D0FB2AF8F4A60030168A /* AppDelegate.swift in Sources */,
 				3C66D0FD2AF8F4A60030168A /* SceneDelegate.swift in Sources */,
 			);
@@ -205,7 +217,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3C66D1012AF8F4A60030168A /* Base */,
-				3C66D1102AF8FC070030168A /* mul */,
+				3CC42E852B21DCA400351041 /* mul */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

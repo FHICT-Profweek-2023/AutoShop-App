@@ -18,7 +18,7 @@ class Products {
     
     static func GetProductList(finished: @escaping (_ productList: [Product]) -> Void) {
         
-        guard let url = URL(string: "http://192.168.160.53/api/products") else { return }
+        guard let url = URL(string: "http://192.168.160.50:8080/api/products") else { return }
         
         URLSession.shared.dataTask(with: url) { data, _, _ in
             
@@ -50,7 +50,7 @@ class Products {
     
     static func GetProduct(id: Int, finished: @escaping (_ productList: Product) -> Void) {
         
-        guard let url = URL(string: "http://192.168.160.53/api/products/\(id)") else { return }
+        guard let url = URL(string: "http://192.168.160.50:8080/api/products/\(id)") else { return }
         
         URLSession.shared.dataTask(with: url) { data, _, _ in
             

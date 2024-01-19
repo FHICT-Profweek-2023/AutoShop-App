@@ -10,6 +10,12 @@
             "state" : "new",
             "value" : "Email"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
         }
       }
     },
@@ -21,6 +27,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "No Products Added"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen producten toegevoegd"
           }
         }
       }
@@ -34,6 +46,12 @@
             "state" : "new",
             "value" : " Add Products"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Producten toevoegen"
+          }
         }
       }
     },
@@ -46,6 +64,30 @@
             "state" : "new",
             "value" : "Button"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
+          }
+        }
+      }
+    },
+    "7X0-h2-Ypx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Firstname Lastname\"; ObjectID = \"7X0-h2-Ypx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Firstname Lastname"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voornaam Achternaam"
+          }
         }
       }
     },
@@ -56,6 +98,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
+            "value" : "Label"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
             "value" : "Label"
           }
         }
@@ -70,6 +118,12 @@
             "state" : "new",
             "value" : "Add Products"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Producten toevoegen"
+          }
         }
       }
     },
@@ -81,6 +135,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "MainView"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HoofdView"
           }
         }
       }
@@ -94,6 +154,30 @@
             "state" : "new",
             "value" : "AddProductView"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ProductenToevoegenView"
+          }
+        }
+      }
+    },
+    "fDZ-Mb-wfV.title" : {
+      "comment" : "Class = \"UICommand\"; title = \"Belgie\"; ObjectID = \"fDZ-Mb-wfV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Belgie"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "België"
+          }
         }
       }
     },
@@ -105,6 +189,30 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
+          }
+        }
+      }
+    },
+    "gnm-fd-d1R.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Gender\"; ObjectID = \"gnm-fd-d1R\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Gender"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geslacht"
           }
         }
       }
@@ -118,6 +226,12 @@
             "state" : "new",
             "value" : "Title"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
+          }
         }
       }
     },
@@ -129,6 +243,66 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Profile"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profiel"
+          }
+        }
+      }
+    },
+    "K7m-GJ-P1y.segmentTitles[0]" : {
+      "comment" : "Class = \"UISegmentedControl\"; K7m-GJ-P1y.segmentTitles[0] = \"Male\"; ObjectID = \"K7m-GJ-P1y\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Male"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Man"
+          }
+        }
+      }
+    },
+    "K7m-GJ-P1y.segmentTitles[1]" : {
+      "comment" : "Class = \"UISegmentedControl\"; K7m-GJ-P1y.segmentTitles[1] = \"Female\"; ObjectID = \"K7m-GJ-P1y\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Female"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrouw"
+          }
+        }
+      }
+    },
+    "K7m-GJ-P1y.segmentTitles[2]" : {
+      "comment" : "Class = \"UISegmentedControl\"; K7m-GJ-P1y.segmentTitles[2] = \"Other\"; ObjectID = \"K7m-GJ-P1y\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Other"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anders"
           }
         }
       }
@@ -142,6 +316,30 @@
             "state" : "new",
             "value" : "Button"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
+          }
+        }
+      }
+    },
+    "LOZ-lt-fDL.title" : {
+      "comment" : "Class = \"UICommand\"; title = \"Nederland\"; ObjectID = \"LOZ-lt-fDL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Nederland"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nederland"
+          }
         }
       }
     },
@@ -153,6 +351,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Going To:"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onderweg Naar:"
           }
         }
       }
@@ -166,6 +370,12 @@
             "state" : "new",
             "value" : "Log in"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inloggen"
+          }
         }
       }
     },
@@ -178,6 +388,12 @@
             "state" : "new",
             "value" : "Button"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
+          }
         }
       }
     },
@@ -188,6 +404,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
+            "value" : "Start"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
             "value" : "Start"
           }
         }
@@ -202,6 +424,12 @@
             "state" : "new",
             "value" : "Button"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
+          }
         }
       }
     },
@@ -213,6 +441,48 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
+          }
+        }
+      }
+    },
+    "NIl-yc-VKG.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Country\"; ObjectID = \"NIl-yc-VKG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Country"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Land"
+          }
+        }
+      }
+    },
+    "pzj-ud-vRn.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Birthday\"; ObjectID = \"pzj-ud-vRn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Birthday"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geboortedatum"
           }
         }
       }
@@ -226,6 +496,12 @@
             "state" : "new",
             "value" : "Add Products"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Producten toevoegen"
+          }
         }
       }
     },
@@ -237,6 +513,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
           }
         }
       }
@@ -250,6 +532,12 @@
             "state" : "new",
             "value" : "Detail"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
+          }
         }
       }
     },
@@ -261,6 +549,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "LoginPageView"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InlogPaginaView"
           }
         }
       }
@@ -274,6 +568,12 @@
             "state" : "new",
             "value" : "Password"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachtwoord"
+          }
         }
       }
     },
@@ -285,6 +585,42 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "0x - €0"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0x - €0"
+          }
+        }
+      }
+    },
+    "Xpx-of-iI7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Email\"; ObjectID = \"Xpx-of-iI7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Email"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        }
+      }
+    },
+    "ZDu-yD-P4V.text" : {
+      "comment" : "Class = \"UITextField\"; text = \"EmailLabel\"; ObjectID = \"ZDu-yD-P4V\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "EmailLabel"
           }
         }
       }
@@ -298,6 +634,12 @@
             "state" : "new",
             "value" : "Login"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inloggen"
+          }
         }
       }
     },
@@ -309,6 +651,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knop"
           }
         }
       }

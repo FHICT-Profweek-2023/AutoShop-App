@@ -28,17 +28,17 @@ class MainView: UIViewController {
                     self.cartTableView.reloadData()
                 }
                 
-                guard let nextProduct = control.next_product else {
+                guard let nextProduct = control.next_Product else {
                     self.productLabel.text = "Geen producten geselecteerd"
                     self.progressView.setProgress(0.0, animated: true)
                     return
                 }
                 
-                let progress = (Float(control.current_position - self.startPosition) / Float(nextProduct - self.startPosition))
+                let progress = (Float(control.current_Position - self.startPosition) / Float(nextProduct - self.startPosition))
                 self.progressView.setProgress(progress, animated: true)
                 
-                if (control.current_position == control.next_product && control.halt == false) {
-                    self.startPosition = control.current_position
+                if (control.current_Position == control.next_Product && control.halt == false) {
+                    self.startPosition = control.current_Position
                     self.cartTableView.reloadData()
                 }
                 
@@ -61,6 +61,8 @@ class MainView: UIViewController {
     }
     
     var groupedCartList: Dictionary<Int, [Cart]>?
+    
+    var customer: Customer?
     
     var startPosition: Int = 0
     var _controls: Control?

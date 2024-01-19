@@ -10,17 +10,16 @@ import Foundation
 struct Control: Codable {
     let id: Int
     var halt: Bool
-    var next_product: Int?
-    let current_position: Int
+    var next_Product: Int?
+    let current_Position: Int
 }
 
 class Controls {
     
+    static let id = 0
+    
     static func GetControl(finished: @escaping (_ control: Control) -> Void) {
-        
-        let id = 0
-        
-        guard let url = URL(string: "http://192.168.160.53/api/Controls/\(id)") else { return }
+        guard let url = URL(string: "http://192.168.160.50:8080/api/Controls/\(id)") else { return }
         
         URLSession.shared.dataTask(with: url) { data, res, error in
             if let data = data {
@@ -51,7 +50,7 @@ class Controls {
     
     static func PutControl(control: Control) {
         do{
-            var request = URLRequest(url: URL(string: "http://192.168.160.53/api/controls/0")!)
+            var request = URLRequest(url: URL(string: "http://192.168.160.50:8080/api/controls/\(id)")!)
             request.httpMethod = "PUT"
             
             request.httpBody = try JSONEncoder().encode(control)
@@ -63,7 +62,7 @@ class Controls {
             
             URLSession.shared.dataTask(with: request, completionHandler: {(data, response, error) in
                 if let response = response {
-                    print ("status code = \((response as! HTTPURLResponse).statusCode)")
+                    //print ("status code = \((response as! HTTPURLResponse).statusCode)")
                 }
                 if let error = error {
                     print ("\(error)")
